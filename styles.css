@@ -56,7 +56,7 @@ body {
 }
 
 header {
-  border: 1px solid black;
+  border-bottom: 2px solid rgba(176, 176, 176, 0.5);
   margin-bottom: 40px;
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 input {
-  width: 550px;
+  width: 650px;
   border-radius: 25px;
   border: 1px solid lightgray;
   padding: 10px;
@@ -82,11 +82,10 @@ input {
 .search-icons-wrapper {
   display: flex;
   gap: 15px;
-
   width: fit-content;
   position: absolute;
   top: 29px;
-  left: 600px;
+  left: 700px;
 }
 .search-icons-wrapper i {
   font-size: var(--size-20);
@@ -106,7 +105,6 @@ input {
 
 .header-icons-right {
   width: 100%;
-
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -125,8 +123,51 @@ input {
 }
 
 .left-align-container {
-  border: 1px solid pink;
-  min-width: 600px;
-  max-width: 800px;
+  width: 800px;
   margin-left: 169px;
+  padding: 10px 0px;
+}
+
+.header-links-wrapper {
+  display: flex;
+  gap: var(--size-100);
+}
+
+.header-links-left ul,
+.header-links-right ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: var(--size-10);
+}
+
+.header-links-wrapper li {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.header-links-wrapper a {
+  text-decoration: none;
+  color: var(--font-color-dark);
+  cursor: pointer;
+  margin: 0;
+  padding: 10px 5px;
+
+  font-size: 12px;
+}
+
+.initial-active a {
+  color: #4285f4;
+  border-bottom: 3px solid #4285f4;
+}
+.header-links-wrapper a:active {
+  color: #4285f4;
+  border-bottom: 3px solid #4285f4;
+}
+
+.header-links-wrapper a:hover {
+  color: #4285f4;
+  border-bottom: 3px solid #4285f4;
 }
