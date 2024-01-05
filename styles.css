@@ -57,7 +57,7 @@ body {
 
 header {
   border-bottom: 2px solid rgba(176, 176, 176, 0.5);
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .main {
@@ -90,6 +90,12 @@ input {
 .search-icons-wrapper i {
   font-size: var(--size-20);
   color: rgb(176, 176, 176);
+}
+
+.search-icons-wrapper i:hover {
+  color: rgb(134, 134, 134);
+  cursor: pointer;
+  font-size: 22px;
 }
 .search-icons-left,
 .search-icons-right {
@@ -170,4 +176,76 @@ input {
 .header-links-wrapper a:hover {
   color: #4285f4;
   border-bottom: 3px solid #4285f4;
+}
+
+/* main section */
+div .left-align-container {
+  /* border: 1px solid pink; */
+  width: 610px;
+  margin-left: 169px;
+  padding: 0;
+}
+
+.result-card {
+  /* border: 1px solid black; */
+  width: 85%;
+  margin-bottom: 15px;
+}
+
+.total-results {
+  font-size: 12px;
+  color: rgb(132, 132, 132);
+  margin-bottom: 10px;
+}
+
+.address {
+  color: black;
+  font-size: 12px;
+}
+
+.address-text {
+  color: gray;
+}
+
+.address .fa-sort-down {
+  color: gray;
+  vertical-align: top;
+}
+
+.address i {
+  color: gray;
+  font-size: 8px;
+}
+
+.address .bump-down {
+  padding-top: 4px;
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.link-address h3 {
+  font-weight: 500;
+  color: rgb(45, 16, 176);
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.link-address a {
+  text-decoration: none;
+}
+
+.result-description p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.result-description-date {
+  color: gray;
+}
+.result-description-links a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(45, 16, 176);
 }
