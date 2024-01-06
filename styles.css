@@ -249,3 +249,57 @@ div .left-align-container {
   font-size: 12px;
   color: rgb(45, 16, 176);
 }
+
+.people-also-ask-wrapper {
+  margin-bottom: 15px;
+}
+
+.people-also-ask {
+  border: 1px solid rgba(211, 211, 211, 0.6);
+  border-radius: 8px;
+
+  width: 95%;
+}
+
+.people-row {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.6);
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expandable {
+  cursor: pointer;
+}
+
+.people-also-ask h3 {
+  font-size: 18px;
+}
+
+.people-also-ask h3,
+.people-also-ask h4 {
+  margin: 0;
+  margin-left: 15px;
+
+  font-weight: 400;
+  color: black;
+  padding: 5px 0;
+}
+
+.people-also-ask i {
+  margin-right: 15px;
+  color: gray;
+}
+
+.feedback-wrapper {
+  width: 95%;
+  display: flex;
+}
+.feedback-wrapper a {
+  margin-left: auto;
+  text-decoration: none;
+  color: gray;
+  margin-right: 15px;
+  font-size: 10px;
+}
